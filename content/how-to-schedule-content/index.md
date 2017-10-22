@@ -1,10 +1,10 @@
-# Title: How to schedule a page
+# Title: How to schedule content
 <!-- Position: 4 -->
 <!-- Date: 2017-08-24 22:00:00 -->
 ---
 You can prepare a page and schedule it to be published on your web site at a different date.
 
-To schedule a page:
+To schedule:
 1. Create a new page, click on **New content** on the left sidebar.
 2. Click on the **Advanced** tab.
 3. Choose the date and time you want the page to be published.
@@ -14,17 +14,17 @@ To schedule a page:
 
 ![How to schedule a page](https://df6m0u2ovo2fu.cloudfront.net/images/documentation-english/scheduled-page.png)
 
-<div markdown="1" class="note">
-<div class="note-title">Note</div>
-The scheduled pages appear on the **Dashboard** and on the **Manage->Content** with a label **Scheduled**.
+<div class="note">
+<div class="title">Note</div>
+The scheduled content appear on the <b>Dashboard</b> and on the <b>Manage->Content</b> with a label <b>Scheduled</b>.
 </div>
 
-<div markdown="1" class="note">
-<div class="note-title">Note</div>
+<div class="note">
+<div class="title">Note</div>
 The users can't access the page until the publish date.
 </div>
 
-<div markdown="1" class="note">
-<div class="note-title">Note</div>
-You can modified the publish date editing the page from **Manage->Content**.
+<div class="note">
+<div class="title">Note</div>
+You can modified the publish date editing the page from <b>Manage->Content</b>.
 </div>

@@ -1,40 +1,38 @@
 # Title: Plugin basics
 <!-- Position: 1 -->
 ---
-Plugins in Bludit resides into `bl-plugins` folder, and they have a default structure. Each plugin is an object in Bludit, with differents hooks (methods).
+Plugins in Bludit resides into `bl-plugins` folder, and they have a pre-defined structure. Each plugin is an object in Bludit, with differents hooks (methods).
 
 ### Content
 1. [Hello World](#hello-world)
 2. [Plugin structure](#structure)
 3. [Information about the theme](#information)
+4. [Name and description](#name-description)
 
 ---
 
 ## <i id="hello-world"></i> Hello World
-The Hello World of the Bludit plugins.
-```
-<?php
+The Hello World plugin for Bludit.
+<pre><code data-language="php"><?php
 	class pluginHello extends Plugin {
 		public function siteSidebar() {
 			echo 'Hello world';
 		}
 	}
-?>
-```
+?></code></pre>
 
 ## <i id="structure"></i> Plugins structure
 This is a mandatory folder structure and files for a plugin.
 ```
 /bl-plugins/{PLUGIN_NAME}/
-	language/en_US.php
+	language/en.php
 	metadata.json
 	plugin.php
 ```
 
 ## <i id="information"></i> Information about the plugin
-Each plugin has an information file `metadata.json`.
-```
-{
+The information of the plugin is in the JSON file `metadata.json`.
+<pre><code data-language="JSON">{
 	"author": "Bludit",
 	"email": "",
 	"website": "https://plugins.bludit.com",
@@ -43,21 +41,19 @@ Each plugin has an information file `metadata.json`.
 	"license": "MIT",
 	"compatible": "2.0",
 	"notes": ""
-}
-```
+}</code></pre>
 
-The plugin **name** and **description** are in the language file `languages/en_US.json`.
-```
-{
+## <i id="name-description"></i> Name and description
+The name and description of the plugin is in the JSON file `languages/en.json`.
+<pre><code data-language="JSON">{
 	"plugin-data":
 	{
 		"name": "Hello World",
 		"description": "Print Hello World in the sidebar"
 	}
-}
-```
+}</code></pre>
 
-<div markdown="1" class="note">
-<div class="note-title">NOTE</div>
-The default language in Bludit is the English from United States, the locale name is **en_US**, and the filename is **en_US.json**.
+<div class="note">
+<div class="title">Examples</div>
+We have a Github repository with examples, take a look at <a href="https://github.com/bludit/examples">Bludit Examples</a>.
 </div>
