@@ -14,5 +14,5 @@ Bludit versucht deine Zeitzone automatisch zu ermitteln. Es empfiehlt sich aber,
 
 <div class="note">
 <div class="title">Files auf den Server laden</div>
-Um die Dateien auf den Server zu laden, kannst du einen FTP-Client verwenden. Weitere Informationen dazu findest Du beispielsweise auf der Website [Planet-Bludit](https://planet-bludit.ch).
+Um die Dateien auf den Server zu laden, kannst du einen FTP-Client verwenden. Weitere Informationen dazu findest Du beispielsweise auf der Website *Planet Bludit* unter [File Transfer Protocol (FTP)](https://planet-bludit.ch/file-transfer-protocol-ftp).
 </div>
