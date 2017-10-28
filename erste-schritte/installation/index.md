@@ -2,17 +2,17 @@
 <!-- Position: 3 -->
 ---
 1. Lade die neueste Version von Bludit von der [offiziellen Website](https://www.bludit.com/de/) herunter.
-2. Entpacke das ZIP-Archiv in ein Verzeichnis, dass du beispielsweise `bludit` benennst.
-3. Upload the directory `bludit` to your server/hosting.
-4. Visit your domain `https://example.com/bludit/`
-5. Follow the Bludit Installer to configure the website.
+2. Entpacke das ZIP-Archiv.
+3. Lade den Inhalt des ZIP-Archivs in das Verzeichnis auf deinem Server, in dem du Bludit installieren möchtest.
+4. Rufe im Browser die Domain mit der Installation auf. Befindet sich der Inhalt des Zip-Archivs im Hauptverzeichnis beispielsweise `https://meinedomain.ch`, befindet er sich in einem Verzeichnis `bludit` beispielsweise `https://meinedomain.ch/bludit`.
+5. Der Bludit-Installer führt dich darauf durch die Einrichtung der Website.
 
 <div class="note">
 <div class="title">Zeitzone</div>
-Bludit tries to find your timezone automatically but it is recommended to check after the installation.
+Bludit versucht deine Zeitzone automatisch zu ermitteln. Es empfiehlt sich aber, die Einstellung der Zeitzone nach der Installation   im Administrationsbereich unter *Einstellungen -> Sprache/Zeitzone -> Zeitzone" zu überprüfen.
 </div>
 
 <div class="note">
-<div class="title">Upload files</div>
-You can use an FTP client to upload files to the hosting.
+<div class="title">Files auf den Server laden</div>
+Um die Dateien auf den Server zu laden, kannst du einen FTP-Client verwenden. Weitere Informationen dazu findest Du beispielsweise auf der Website [Planet-Bludit](https://planet-bludit.ch).
 </div>
