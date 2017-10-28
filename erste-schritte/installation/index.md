@@ -1,8 +1,8 @@
 # Title: Installation
 <!-- Position: 3 -->
 ---
-1. Download the latest version from [the official page](https://www.bludit.com).
-2. Extract the zip file into a directory like `bludit`.
+1. Lade die neueste Version von Bludit von der [offiziellen Website](https://www.bludit.com/de/) herunter.
+2. Entpacke das ZIP-Archiv in ein Verzeichnis, dass du beispielsweise `bludit` benennst.
 3. Upload the directory `bludit` to your server/hosting.
 4. Visit your domain `https://example.com/bludit/`
 5. Follow the Bludit Installer to configure the website.
