@@ -22,4 +22,4 @@ Bludit ist eine Web-Anwendung, mit der schnell und einfach Websites oder Blogs e
 Bludit ist Open-Source-Software und steht unter der [MIT-Lizenz](https://tldrlegal.com/license/mit-license).
 
 ### Mitarbeit
-Unter [Github: Bludit documentation](https://github.com/bludit/documentation-german) kannst due mithelfen, diese Dokumentation zu verbessern.
+Gerne kannst du mithelfen, unter [Github: Bludit-Dokumentation](https://github.com/bludit/documentation-german) diese Dokumentation zu verbessern.
