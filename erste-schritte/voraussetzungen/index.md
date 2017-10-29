@@ -17,5 +17,5 @@ Auf diesem muss folgendes installiert sein:
   * Apache mit dem Modul [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html)
   * Lighttpd mit dem Modul [mod_rewrite](http://redmine.lighttpd.net/projects/1/wiki/docs_modrewrite)
   * Hiawatha mit [rewrite rules](https://www.hiawatha-webserver.org/howto/url_rewrite_rules)
-  * H2O, vgl. dazu den im Support-Forum den Eintrag [H2O HTTP/2 web server and Bludit](https://forum.bludit.org/viewtopic.php?f=6&t=1015)
+  * H2O, vgl. dazu im Support-Forum den Eintrag [H2O HTTP/2 web server and Bludit](https://forum.bludit.org/viewtopic.php?f=6&t=1015)
   
