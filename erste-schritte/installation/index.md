@@ -9,7 +9,7 @@
 
 <div class="note">
 <div class="title">Zeitzone</div>
-Bludit versucht deine Zeitzone automatisch zu ermitteln. Es empfiehlt sich aber, die Einstellung der Zeitzone nach der Installation   im Administrationsbereich unter "Einstellungen" > "Sprache/Zeitzone" > "Zeitzone" zu überprüfen.
+Bludit versucht deine Zeitzone automatisch zu ermitteln. Es empfiehlt sich aber, die Einstellung der Zeitzone nach der Installation   im Administrationsbereich unter <strong>Einstellungen</strong> > <strong>Sprache/Zeitzone</strong> > <strong>Zeitzone</strong> zu überprüfen.
 </div>
 
 <div class="note">
