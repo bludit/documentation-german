@@ -1,9 +1,9 @@
-# Title: Hooks list
+# Title: Hooks
 <!-- Position: 2 -->
 ---
-Here is a list of Hooks supported by Bludit.
+Bludit unterstützt verschiedene Hooks, mit denen das System selbst und die Themes erweitert werden können.
 
-| Hooks 			| Execute in 		| Notes						|
+| Hooks 			| Verwendung 		| Bemerkungen						|
 | ------------------------------|-----------------------|-----------------------------------------------|
 | siteHead 			| Theme 		|						|
 | siteBodyBegin 		| Theme 		|						|
@@ -14,9 +14,9 @@ Here is a list of Hooks supported by Bludit.
 | pageBegin			| Theme			|						|
 | pageEnd			| Theme			|						|
 | adminHead			| Admin theme		|						|
-| adminBodyBegin		| Admin theme		|						|
-| adminBodyEnd			| Admin theme		|						|
-| adminSidebar			| Admin theme		|						|
+| adminBodyBegin		| Admin-Theme		|						|
+| adminBodyEnd			| Admin-Theme		|						|
+| adminSidebar			| Admin-Theme		|						|
 | beforeAdminLoad		| Core			|						|
 | afterAdminLoad		| Core			|						|
 | beforeRulesLoad		| Core			|						|
@@ -29,6 +29,6 @@ Here is a list of Hooks supported by Bludit.
 | loginBodyEnd			| Core			|						|
 
 <div class="note">
-<div class="title">Examples</div>
-Not all the themes support the hooks for Themes, only the hooks by Core and by Admin theme are 100% executed.
+<div class="title">Hinweis</div>
+Nicht alle Themes unterstützen alle Hooks für Themes.
 </div>
