@@ -13,7 +13,7 @@ Bludit unterstützt verschiedene Hooks, mit denen das System selbst und die Them
 | afterSiteLoad			| Theme			|						|
 | pageBegin			| Theme			|						|
 | pageEnd			| Theme			|						|
-| adminHead			| Admin theme		|						|
+| adminHead			| Admin-Theme		|						|
 | adminBodyBegin		| Admin-Theme		|						|
 | adminBodyEnd			| Admin-Theme		|						|
 | adminSidebar			| Admin-Theme		|						|
