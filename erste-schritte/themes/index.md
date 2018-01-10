@@ -1,15 +1,15 @@
 # Title: Themes
 <!-- Position: 6 -->
 ---
-Bludit supports themes to change the appearance of your website or blog. You can find themes on the website [Bludit Themes](https://themes.bludit.com).
+Bludit unterstützt Themes um das Aussehen deines Blogs oder deiner Webseite zu ändern. Themes findest du auf der Seite [Bludit Themes](https://themes.bludit.com).
 
-Take a look at the section **Themes** to know more about themes.
-- Start with [Theme basics](https://docs.bludit.com/en/themes/theme-basics).
-- [How to translate a theme](https://docs.bludit.com/en/languages/translate-themes).
+Schau dir den Abschnitt **Themes** an um mehr darüber zu erfahren.
+- Beginne mit den [Theme Grundlagen](https://docs.bludit.com/de/themes/theme-basics).
+- [Wie man ein Theme übersetzt](https://docs.bludit.com/de/languages/translate-themes).
 
 ## Installation eines Themes
-1. Download the zip file with the theme.
-2. Uncompress the zip file.
-3. Copy the theme folder into the folder `bl-themes/`.
-4. Go to the admin panel, on the left sidebar click on **Settings->Themes**.
-5. Look for the theme on the list, and click on **Activate**.
+1. Lade die ZIP-Datei mit dem Plugin herunter.
+2. Entpacke die ZIP-Datei.
+3. Kopiere den Theme-Ordner in den Ordner 'bl-themes/'.
+4. Klicke im Admin-Bereich im linken Menü auf den Bereich **Einstellungen -> Themes**.
+5. Suche nach dem Theme und klick auf **Aktivieren**.
