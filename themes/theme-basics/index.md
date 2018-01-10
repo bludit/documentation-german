@@ -1,19 +1,19 @@
 # Title: Theme basics
 <!-- Position: 1 -->
 ---
-Themes in Bludit are very flexible, you can use any framework ([Bootstrap](http://getbootstrap.com/), [Kube](http://imperavi.com/kube/), [Pure.io](purecss.io), [Skel](https://github.com/n33/skel), [Less](http://lesscss.org/), etc), any Javascript code, whatever you want.
+Bludit ist bei Themes sehr flexibel und erlaubt die Verwendung jedes Frameworks ([Bootstrap](http://getbootstrap.com/), [Kube](http://imperavi.com/kube/), [Pure.io](purecss.io), [Skel](https://github.com/n33/skel), [Less](http://lesscss.org/), etc), jeglichen Javascript code oder was immer du möchtest.
 
-All themes resides into `bl-themes` folder, and they have a pre-defined structure.
+Alle Themes liegen im Verzeichnis 'bl-themes' und haben eine vordefinierte Struktur.
 
-### Content
-1. [Themes structure](#structure)
-2. [Information about the theme](#information)
-3. [Name and description](#name-description)
+### Inhalt
+1. [Theme Verzeichnisstruktur](#structure)
+2. [Information über das Theme](#information)
+3. [Name und Beschreibung](#name-description)
 
 ---
 
-## <a id="structure"></a> Theme structure
-This is a simple mandatory folder structure and files for themes.
+## <a id="structure"></a> Theme Verzeichnisstruktur
+Dies ist die Verzeichnisstruktur mitsamt der benötigten Dateien für ein Theme.
 ```
 /bl-themes/{THEME_NAME}/
 	language/en.json
@@ -21,8 +21,8 @@ This is a simple mandatory folder structure and files for themes.
 	index.php
 ```
 
-## <a id="information"></a> Information about the theme
-The information of the theme is in the JSON file `metadata.json`.
+## <a id="information"></a> Information über das Theme
+Die Information des Themes befindet sich in der JSON Datei `metadata.json`.
 <pre><code data-language="JSON">{
 	"author": "Bludit",
 	"email": "",
@@ -34,8 +34,8 @@ The information of the theme is in the JSON file `metadata.json`.
 	"notes": ""
 }</code></pre>
 
-## <i id="name-description"></i> Name and description
-The name and description of the theme is in the JSON file `languages/en.json`.
+## <i id="name-description"></i> Name und Beschreibung
+Der Name und die Beschreibung des Themes befinden sich in der JSON Datei `languages/en.json`.
 <pre><code data-language="JSON">{
 	"theme-data":
 	{
@@ -45,6 +45,6 @@ The name and description of the theme is in the JSON file `languages/en.json`.
 }</code></pre>
 
 <div class="note">
-<div class="title">Examples</div>
-We have a Github repository with examples, take a look at <a href="https://github.com/bludit/examples">Bludit Examples</a>.
+<div class="title">Beispiele</div>
+Wir haben ein Gibhub-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
 </div>
