@@ -1,18 +1,18 @@
-# Title: Read Content
+# Title: Inhalte lesen
 <!-- Position: 2 -->
 <!-- Date: 2017-08-27 13:00:00 -->
 ---
-Bludit API provide the feature to request a particular page or a list of pages.
+Die Bludit API unterstützt eine Funktion um eine bestimmte Seite oder eine Liste aller Seiten abzurufen.
 
-By default the API requiere the `API token`.
+Standardmäßig benötigt die API den `API token`.
 
 ### Content
-1. [Request a list of pages](#request-a-list-of-pages)
-2. [Request a particular page](#request-a-particular-pages)
+1. [Anfrage einer Liste aller Seiten](#request-a-list-of-pages)
+2. [Anfrage einer bestimmten Seite](#request-a-particular-pages)
 
 ---
 
-## <a id="request-a-list-of-pages"></a> Request a list of pages
+## <a id="request-a-list-of-pages"></a> Anfrage einer Liste aller Seiten
 
 ### Request
 - Endpoint: `/api/pages`
@@ -44,8 +44,8 @@ By default the API requiere the `API token`.
 }
 ```
 
-### cURL command example
-Here is an example of a request made via the command line with the command curl.
+### cURL Befehl Beispiel
+Hier ist ein Beispiel der Abfrage mit dem Kommandozeilen-Tool cURL:
 ```
 $ curl -vvv -X GET -G "https://example.com/api/pages" -d "token=80a09ba055b73f68e3c9e7c9ea12b432"
 
@@ -83,8 +83,8 @@ $ curl -vvv -X GET -G "https://example.com/api/pages" -d "token=80a09ba055b73f68
 }
 ```
 
-### AJAX with jQuery
-Example of AJAX request with the library [jQuery](https://api.jquery.com/jQuery.ajax/).
+### AJAX mit jQuery
+Beispiel eines AJAX-Requests mit der Bibliothek [jQuery](https://api.jquery.com/jQuery.ajax/).
 ```
 $.ajax({
 	url: "https://example.com/api/pages",
@@ -97,11 +97,11 @@ $.ajax({
 });
 ```
 
-You can see and download a full example in [Bludit Examples](https://github.com/bludit/examples/tree/master/api/ajax-request-list-of-pages).
+Ein vollständiges Beispiel gibt es unter [Bludit Examples](https://github.com/bludit/examples/tree/master/api/ajax-request-list-of-pages).
 
 ---
 
-## <a id="request-a-particular-pages"></a> Request a particular page
+## <a id="request-a-particular-pages"></a> Anfrage einer bestimmten Seite
 
 ### Request
 - Endpoint: `/api/pages/<key>`
@@ -128,8 +128,8 @@ You can see and download a full example in [Bludit Examples](https://github.com/
 }
 ```
 
-### cURL command example
-Here is an example of a request made via the command line with the command curl.
+### cURL Befehl Beispiel
+Hier ist ein Beispiel der Abfrage mit dem Kommandozeilen-Tool cURL:
 ```
 $ curl -vvv -X GET -G "https://example.com/api/pages/the-dog" -d "token=80a09ba055b73f68e3c9e7c9ea12b432"
 
@@ -162,8 +162,8 @@ $ curl -vvv -X GET -G "https://example.com/api/pages/the-dog" -d "token=80a09ba0
 }
 ```
 
-### AJAX with jQuery
-Example of AJAX request with the library [jQuery](https://api.jquery.com/jQuery.ajax/).
+### AJAX mit jQuery
+Beispiel eines AJAX-Requests mit der Bibliothek [jQuery](https://api.jquery.com/jQuery.ajax/).
 ```
 $.ajax({
         url: "https://example.com/api/pages/the-dog",
@@ -176,4 +176,4 @@ $.ajax({
 });
 ```
 
-You can see and download a full example in [Bludit Examples](https://github.com/bludit/examples/tree/master/api/ajax-request-a-particular-page).
+Ein vollständiges Beispiel gibt es unter [Bludit Examples](https://github.com/bludit/examples/tree/master/api/ajax-request-a-particular-page).
