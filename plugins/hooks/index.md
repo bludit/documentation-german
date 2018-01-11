@@ -1,7 +1,7 @@
 # Title: Hooks
 <!-- Position: 2 -->
 ---
-Bludit unterstützt verschiedene Hooks, mit denen das System selbst und die Themes erweitert werden können.
+Bludit unterstützt verschiedene Hooks (Einhängepunkte), mit denen das System selbst und die Themes erweitert werden können.
 
 | Hooks 			| Verwendung 		| Bemerkungen						|
 | ------------------------------|-----------------------|-----------------------------------------------|
