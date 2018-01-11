@@ -1,30 +1,30 @@
-# Title: How to schedule content
+# Title: Inhalte zeitgesteuert veröffentlichen
 <!-- Position: 4 -->
 <!-- Date: 2017-08-24 22:00:00 -->
 ---
-You can prepare a page and schedule it to be published on your web site at a different date.
+Du kannst eine Seite automatisch zu einem bestimmten Zeitpunkt veröffentlichen.
 
-To schedule:
-1. Create a new page, click on **New content** on the left sidebar.
-2. Click on the **Advanced** tab.
-3. Choose the date and time you want the page to be published.
-4. The status of the page needs to be **Published**.
-5. Complete the page, such as title, and content.
-6. Click **Save** button.
+Führe folgende Schritte aus um dies zu tun:
+1. Erstelle einen neuen Inhalt
+2. Klicke auf **Erweitert** in der rechten Sidebar.
+3. Wähle hier das Datum der Veröffentlichung der Seite.
+4. Der Status der Seite muss  **Veröffentlicht** sein.
+5. Vervollständige den Inhalt mitsamt Titel, Inhalt und sonstigen Angaben.
+6. Klicke auf **Speichern**.
 
 ![How to schedule a page](https://df6m0u2ovo2fu.cloudfront.net/images/documentation-english/scheduled-page.png)
 
 <div class="note">
-<div class="title">Note</div>
-The scheduled content appear on the <b>Dashboard</b> and on the <b>Manage->Content</b> with a label <b>Scheduled</b>.
+<div class="title">Anmerkung</div>
+Die Seiten mit geplanter Veröffentlichung erscheinen auf dem <b>Dashboard</b> und im Bereich <b>Inhalte verwalten</b> mit dem Label <b>Geplant</b>.
 </div>
 
 <div class="note">
-<div class="title">Note</div>
-The users can't access the page until the publish date.
+<div class="title">Anmerkung</div>
+Bis zur Veröffentlichung der Seite ist diese für die User nicht sichtbar.
 </div>
 
 <div class="note">
-<div class="title">Note</div>
-You can modified the publish date editing the page from <b>Manage->Content</b>.
+<div class="title">Anmerkung</div>
+Das veröffentlichungsdatum kann im Adminbereich bearbeitet werden.
 </div>

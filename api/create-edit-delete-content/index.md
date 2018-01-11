@@ -1,18 +1,21 @@
-# Title: Create/Edit/Delete Content
+# Title: Inhalte erstellen/bearbeiten/löschen
 <!-- Position: 3 -->
 <!-- Date: 2017-10-18 22:00:00 -->
 ---
-Bludit API provide the features to create, edit or delete content.
+Die Bludit API unterstützt eine Funktion um eine bestimmte Seite oder eine Liste aller Seiten abzurufen.
 
-By default the API requiere the `API token`, and to write content you need an user with the **ADMINISTRATOR** role and his `Authorization Token`; You can get the `Authorization Token` on **Manage->Users->{Username}->Edit User->Authentication Token->Token**.
+Standardmäßig benötigt die API den `API token`. Um Inhalte zu schreiben benötigt man einen User mit der Rolle **ADMINISTRATOR** und dessen `Authorization Token`. Diesen bekommt man im Admin-Bereich unter **Verwalten->Benutzer->{Username}->Edit User->Authentication Token->Token**.
 
-### Content
-1. [Create a new page](#create-a-new-page)
-2. [Edit a page](#edit-a-page)
+By default the API requiere the `API token`, and to write content you need an user with the **ADMINISTRATOR** role and his `Authorization Token`; You can get the `Authorization Token` on **Manage->Users->{Username}->Benutzer bearbeiten->Authentifizierungs-Token->Token**.
+
+### Inhalt
+1. [Erstellen einer neuen Seite](#create-a-new-page)
+2. [Eine Seite bearbeiten](#edit-a-page)
+3. [Eine Seite löschen](#delete-a-page)
 
 ---
 
-## <a id="create-a-new-page"></a> Create a new page
+## <a id="create-a-new-page"></a> Erstellen einer neuen Seite
 
 ### Request
 - Endpoint: `/api/pages`
@@ -44,8 +47,8 @@ By default the API requiere the `API token`, and to write content you need an us
 }
 ```
 
-### cURL command example
-Here is an example to how to create a new page via the command line with the command curl. The file `data.json` has the basic data need it to create a new page.
+### cURL Befehl Beispiel
+Hier ist ein Beispiel der Abfrage mit dem Kommandozeilen-Tool cURL. Die Datei `data.json` beinhaltet die Informationen um eine Seite erstellen zu können.
 
 File `data.json`
 ```
@@ -87,7 +90,7 @@ $ curl -vvv -X POST -H "Content-Type: application/json" -d @data.json "https://e
 
 ---
 
-## <a id="edit-a-page"></a> Edit a page
+## <a id="edit-a-page"></a> Eine Seite bearbeiten
 
 ### Request
 - Endpoint: `/api/pages/<key>`
@@ -121,7 +124,7 @@ $ curl -vvv -X POST -H "Content-Type: application/json" -d @data.json "https://e
 
 ---
 
-## <a id="edit-a-page"></a> Delete a page
+## <a id="delete-a-page"></a> Eine Seite löschen
 
 ### Request
 - Endpoint: `/api/pages/<key>`

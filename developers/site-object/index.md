@@ -2,12 +2,12 @@
 <!-- Position: 2 -->
 ---
 
-The object `$Site` has all the information from the database `/bl-content/databases/site.php`
+Das Objekt `$Site` beinhaltet alle Informationen über die Datenbank `/bl-content/databases/site.php`
 
-## Methods and examples of usage
+## Methoden und Beispiele
 
-### URL filters
-The returned values are the default, the user can change it.
+### URL Filter
+Die Rückgabewerte sind Standardwerte und können vom User geändert werden.
 
 <pre><code data-language="php"># Get the admin filter
 $Site->uriFilters('admin'); # returns /admin/
@@ -25,38 +25,38 @@ $Site->uriFilters('tag'); # returns /tag/
 $Site->uriFilters('blog'); # returns /blog/
 </code></pre>
 
-### Print the site title
+### Seitentitel
 <pre><code data-language="php">echo $Site->title();</code></pre>
 
-### Print the site slogan
+### Seiten-Slogan
 <pre><code data-language="php">echo $Site->slogan();</code></pre>
 
-### Print the site description
+### Seitenbeschreibung
 <pre><code data-language="php">echo $Site->description();</code></pre>
 
-### Print the footer text
+### Fußzeilentext
 <pre><code data-language="php">echo $Site->footer();</code></pre>
 
-### Get the current theme for the site
+### Aktuelles Theme
 <pre><code data-language="php">$theme = $Site->theme();</code></pre>
 
-### Get the current theme for the admin panel
+### Aktuelles Theme für den Admin-Bereich
 <pre><code data-language="php">$theme = $Site->adminTheme();</code></pre>
 
-### Get the defined timezone
+### Eingestellte Zeitzone
 <pre><code data-language="php">echo $Site->timezone();</code></pre>
 
-### Get the defined language
+### Eingestellte Sprache
 <pre><code data-language="php">echo $Site->language();</code></pre>
 
-### Get the defined locale
+### Eingestellte Locale
 <pre><code data-language="php">echo $Site->locale();</code></pre>
 
-### Get the defined homepage
+### Eingestellte Haupt-Seite
 <pre><code data-language="php">echo $Site->homepage();</code></pre>
 
-### Get the number of posts to show on one page
+### Anzahl der Seiten auf einer Seite
 <pre><code data-language="php">echo $Site->postsPerPage();</code></pre>
 
-### Get the current build of Bludit
+### Aktuelle Version von Bludit
 <pre><code data-language="php">echo $Site->currentBuild();</code></pre>

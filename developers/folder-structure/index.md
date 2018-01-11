@@ -1,7 +1,7 @@
-# Title: Folder structure
+# Title: Verzeichnisstruktur
 <!-- Position: 1 -->
 ---
-This is the folder structure of Bludit.
+Das ist die Verzeichnisstruktur von Bludit.
 
 ```
 bl-content/
@@ -12,7 +12,7 @@ bl-themes/
 ```
 
 ## bl-content
-This folder is very important, it is where Bludit stores all files, as well as databases and images. Before making some update it's highly recommended to make a backup of this folder.
+Dieses Verzeichnis ist sehr wichtig, da Bludit dort alle Dateien - Datenbanken als auch Bilder - ablegt. Vor einem Update wird dringend dazu geraten, von diesem Verzeichnis eine Sicherung anzulegen.
 
 ```
 bl-content/
@@ -39,10 +39,10 @@ bl-content/
 ```
 
 ## bl-kernel
-This folder contains the core of Bludit.
+Dieses Verzeichnis beinhaltet den Logik-Kern von Bludit.
 
 ## bl-languages
-This folder contains all language files, each file is a JSON document, encoded in UTF-8.
+In diesem Verzeichnis befinden sich alle Sprachdateien im JSON-Format und dem Zeichensatz UTF-8.
 
 ```
 bl-languages/
@@ -55,7 +55,7 @@ bl-languages/
 ```
 
 ## bl-plugins
-This folder contains all plugins, you can download new plugins and upload here.
+In diesem Verzeichnis befinden sich alle Plugins. Neue Plugins müssen hier abgelegt werden damit sie erkannt werden.
 
 ```
 bl-plugins/
@@ -68,7 +68,7 @@ bl-plugins/
 ```
 
 ## bl-themes
-This folder contains all themes, you can download new themes and upload here.
+Dieses Verzeichnis beinhaltet alle Themes. Neue Themes müssen hier abgelegt werden, damit sie erkannt werden.
 
 ```
 bl-themes/

@@ -1,20 +1,20 @@
-# Title: How to upload and insert an image
+# Title: Hochladen und Einfügen eines Bildes
 <!-- Position: 2 -->
 <!-- Date: 2017-08-24 22:00:00 -->
 ---
-You can upload an image and then insert it into the content of the page from the right sidebar when you are creating or editing a page.
+Beim Erstellen oder Bearbeiten einer Seite kannst du über die rechte Sidebar ein Bild hochladen und danach in den Seiteninhalt einfügen.
 
-1. Click on the right sidebar the section **Images**.
-2. Click on the button **Upload and More images**
-3. Click on the button **Upload image**
-4. Select the image from your disk
-5. After the image is uploaded is going to appear a little image of the original image, click on this thumbnails.
-6. Select the option **Insert Image**
-7. The image is inserted into the content of the page
+1. Öffne den Abschnitt **Bilder** auf der rechten Sidebar.
+2. Auf den Button **Upload weitere Bilder** klicken
+3. Auf den Button **Bild hochladen** klicken
+4. Wähle das Bild auf deiner Festplatte aus
+5. Nachdem das Bild hochgeladen wurde wird eine kleine Vorschau des Bildes angezeigt. Mit einem Klick kannst du es auswählen.
+6. Wähle **Bild einfügen**
+7. Das Bild ist nun eingefügt.
 
 ![How to upload an insert an image](https://df6m0u2ovo2fu.cloudfront.net/images/documentation-english/how-to-upload-and-insert-an-image.png)
 
 <div class="note">
-<div class="title">Note</div>
-The code inserted will be different for each HTML Editor, by default is Markdown code.
+<div class="title">Anmerkung</div>
+Der eingefügte Code kann sich je nach Editor unterscheiden. Standardmäßig wird Markdown Code erzeugt.
 </div>

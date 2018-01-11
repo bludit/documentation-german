@@ -1,15 +1,16 @@
-# Title: Example: My second theme
+# Title: Beispiel: Mein zweites Theme
 <!-- Position: 3 -->
 ---
-## 1. Folder structure
-Let's go to create the folder structure for the theme, this themes is called `Mars`.
-Create the folder for the theme inside the folder `/bl-themes/`, you will get `/bl-themes/mars/`.
+## 1. Verzeichnisstruktur
+Jetzt erstellen wir die Verzeichnisstruktur für das Theme. Dieses nennen wir `Mars`.
+Erstelle das Theme-Verzeichnis im Verzeichnis `/bl-themes/`, in unserem Fall `/bl-themes/mars/`.
 
-Next, create the languages, css and js folders:
-- Create the folder `languages` inside the folder `/bl-themes/mars/`
-- Create the folder `css` inside the folder `/bl-themes/mars/`
-- Create the folder `js` inside the folder `/bl-themes/mars/`
+Jetzt erstellen wir die Unterverzeichnisse languages, css und js:
+- Erstelle das Verzeichnis `languages` im Theme-Verzeichnis `/bl-themes/mars/`
+- Erstelle das Verzeichnis `css` im Theme-Verzeichnis `/bl-themes/mars/`
+- Erstelle das Verzeichnis `js` im Theme-Verzeichnis `/bl-themes/mars/`
 
+Die Verzeichnisstruktur sollte jetzt so aussehen:
 ```
 /bl-themes/mars/
 	css/
@@ -17,8 +18,8 @@ Next, create the languages, css and js folders:
 	language/
 ```
 
-## 2. Theme information
-Create a file with the theme information; The file will be in the root theme folder, file `metadata.json`, with the next JSON code:
+## 2. Themeinformationen
+Erstelle eine Datei mit dem Namen `metadata.json` im Theme-Verzeichnis und dem folgenden Inhalt:
 
 ```
 {
@@ -33,7 +34,7 @@ Create a file with the theme information; The file will be in the root theme fol
 }
 ```
 
-Now create another file with the name and description of the theme; create a file called `en.json` inside the folder `/bl-themes/mars/languages/`, with the next JSON code:
+Jetzt erstelle eine Datei `en.json` im Verzeichnis `/bl-themes/mars/languages/` mit folgendem Inhalt:
 
 ```
 {
@@ -46,7 +47,7 @@ Now create another file with the name and description of the theme; create a fil
 ```
 
 ## 3. index.php
-Let's work on the file `index.php`, create the file inside the folder `/bl-themes/mars/`, with the next HTML code:
+Jetzt arbeiten wir an der Datei `index.php`. Erstelle diese im Theme-Verzeichnis `/bl-themes/mars/` mit folgendem Inhalt:
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -59,8 +60,8 @@ Let's work on the file `index.php`, create the file inside the folder `/bl-theme
 </html>
 </code></pre>
 
-### 3.1. CSS files
-Add some CSS files, you can use the Helper `Theme::` or use the tag `link`. In this case we are going to use the Helper to add the CSS file `blog.css`.
+### 3.1. CSS Dateien
+CSS-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.css` in das Theme ein.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -76,8 +77,8 @@ Add some CSS files, you can use the Helper `Theme::` or use the tag `link`. In t
 </html>
 </code></pre>
 
-### 3.2. JavaScript files
-Add some JavaScript files, you can use the Helper `Theme::` or use the tag `script`. Follow the structure of CSS we are going to use the Helper here too to add the Javascript file `blog.js`.
+### 3.2. JavaScript Dateien
+JavaScript-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.js` in das Theme ein.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -96,8 +97,9 @@ Add some JavaScript files, you can use the Helper `Theme::` or use the tag `scri
 </html>
 </code></pre>
 
-### 3.3. Plugins with the hook siteHead
-Add support for plugins with the hook site head, just use the helper `Theme::plugins`.
+### 3.3. Plugins mit dem hook siteHead
+Damit Plugins funktionieren müssen Hooks mit dem Helper `Theme::plugins` gesetzt werden.
+Nachfolgend setzen wir den Hook für die Plugins, die bei den SiteHeads ausgeführt werden sollen.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -119,8 +121,8 @@ Add support for plugins with the hook site head, just use the helper `Theme::plu
 </html>
 </code></pre>
 
-### 3.4. Site title
-Add the title on the `head` and on the `body`.
+### 3.4. Seitentitel
+Der Seitentitel wird in den Bereichen Head und Body gesetzt.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -146,10 +148,11 @@ Add the title on the `head` and on the `body`.
 </html>
 </code></pre>
 
-### 3.5. Content
-Now lets works with the content of the site.
+### 3.5. Inhalt
+Jetzt fügen wir Beitragsinhalte auf der Seite ein.
 
-To locate what page the user is browsing on the site use the variable `$WHERE_AM_I`. For example, if the user is watching a page the value of the variable has an string `page`, and if the user is watching the main page (home page) the value of the variable is going to be `home`.
+Um zu ermitteln auf welcher Seite der User sich gerade befindet kann die Variable `$WHERE_AM_I` verwendet werden.
+Wenn der User zum Beispiel eine Seite (einen Inhalt) ansieht hat der Wert der Variable `page`, befindet er sich auf der Startseite, dann ist der Wert `home`.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -190,7 +193,7 @@ To locate what page the user is browsing on the site use the variable `$WHERE_AM
 </html>
 </code></pre>
 
-If the user is in the home page, Bludit generate an array `$pages` with all the published pages, each page is an [Page Object](https://).
+Befindet sich der User auf der Startseite generiert Bludit ein Array `$pages` mit allen veröffentlichten Seiten. Jede Seite ist hierbei ein [Seiten Objekt](https://).
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -235,7 +238,8 @@ If the user is in the home page, Bludit generate an array `$pages` with all the 
 </html>
 </code></pre>
 
-If the user is watching a particular page, Bludit generate an object `$Page`, on it you have a lot of methods, in this example will be use the methods `title()` and `content()`. To know other methods check the next page [Page Object](http://).
+Sieht sich der User eine bestimmte Seite an, generiert Bludit ein Objekt mit dem Namen `$Page`, die viele Methoden zur Verfügung stellt.
+In unserem Beispiel verwenden wir die Methoden `title()` und `content()`. Um die anderen Methoden kennen zu lernen schau dir die folgende Seite an: [Page Object](http://)
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -281,8 +285,8 @@ If the user is watching a particular page, Bludit generate an object `$Page`, on
 </html>
 </code></pre>
 
-### 3.6. Plugins site body begins and ends
-To finish the theme, add support for plugins in the body.
+### 3.6. Plugin Unterstützung für die Hooks 'site body begins' und 'site body ends'
+Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu.
 
 <pre><code data-language="html"><!DOCTYPE html>
 <html>
@@ -336,6 +340,6 @@ To finish the theme, add support for plugins in the body.
 </code></pre>
 
 <div class="note">
-<div class="title">Examples</div>
-We have a Github repository with examples, take a look at <a href="https://github.com/bludit/examples">Bludit Examples</a>.
+<div class="title">Beispiele</div>
+Wir haben ein Gibhub-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
 </div>

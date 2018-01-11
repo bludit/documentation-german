@@ -1,10 +1,10 @@
-# Title: Variables
+# Title: Variablen
 <!-- Position: 2 -->
 ---
 
-## Constants
+## Konstanten
 
-Here is a list of all constant and the default value. This constant are in the file `/bludit/bl-kernel/boot/init.php`
+Nachfolgend siehst du eine Liste mit allen Konstanten und deren Default-Werten. Diese Konstanten befinden sich in der Datei `/bludit/bl-kernel/boot/init.php`.
 
 | Constants 			| Value 		| Type 		| Notes
 | ------------------------------|-----------------------|---------------|-----------------------------------------------------|
@@ -26,10 +26,10 @@ Here is a list of all constant and the default value. This constant are in the f
 | MB_STRING			| True / False		| Boolean 	| Multibyte string extension loaded
 | SALT_LENGTH			| 8			| Integer 	| String length of the password salt
 
-## Constants: Absolutes paths
+## Konstanten: Absolute Pfade
 
-- Web root directory: */var/www/*
-- Bludit directory: */var/www/bludit/*
+- Web root Verzeichnis: */var/www/*
+- Bludit Verzeichnis: */var/www/bludit/*
 
 | Constants 			| Value 						| Type 		| Notes
 | ------------------------------|-------------------------------------------------------|---------------|--------------------------|
@@ -65,10 +65,10 @@ Here is a list of all constant and the default value. This constant are in the f
 | PATH_THEME_LANG		| /var/www/bludit/bl-themes/{theme_name}/language/	| String
 
 
-## Constants: Relative paths
+## Konstanten: Relative Pfade
 
-- Web root directory: */var/www/*
-- Bludit directory: */var/www/bludit/*
+- Web root Verzeichnis: */var/www/*
+- Bludit Verzeichnis: */var/www/bludit/*
 
 | Constants 				| Value 							| Type 		| Notes
 | --------------------------------------|---------------------------------------------------------------|---------------|--------------------------|
@@ -89,7 +89,7 @@ Here is a list of all constant and the default value. This constant are in the f
 | HTML_PATH_PLUGINS			| /bludit/bl-plugins/						| String
 
 
-## Constants: Domain and base path
+## Konstanten: Domain und base path
 
 - Protocol: *http or https*
 - Domain: *www.domain.com*
