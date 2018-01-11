@@ -1,12 +1,14 @@
-# Title: How to change the editor
+# Title: Den Editor ändern
 <!-- Position: 5 -->
 <!-- Date: 2017-10-21 18:00:00 -->
 ---
-Bludit by default use SimpleMDE Editor is a simple and clean editor for Markdown code but you can choose TinyMCE who support HTML Code and is more friendly. SimpleMDE and TinyMCE are pre-installed on Bludit by default, both are plugins and you can find it in the plugin section.
+Standardmäßig verwendet Bludit den Editor "SimpleMDE", einen einfachen und übersichtlichen Editor für das Erstellen von Markdown-Code.
+Stattdessen kann aber auch "TinyMCE" eingesetzt werden, der einfache Erstellung von HTML-Code unterstützt.
+Beide Editoren sind in Bludit vorinstalliert und in der Plugin-Liste sichtbar.
 
-## How to change to TinyMCE
-- Log in into the **Admin panel**.
-- Go to **Plugins** on the left menu.
-- Find the plugin **SimpleMDE** and click on the button **Deactivate**.
-- Find the plugin **TinyMCE** and click on the button **Activate**.
-- Now you have enabled TinyMCE as editor.
+## Wechsel zu TinyMCE
+- Logge dich in den **Adminbereich** ein.
+- Gehe zu **Plugins** im linken Menü.
+- Suche das Plugin **SimpleMDE** und klicke auf den Button **Deaktivieren**.
+- Suche das Plugin **TinyMCE** und klicke auf den Button **Aktivieren**.
+- Beim Erstellen einer neuen Seite wird jetzt der Editor "TinyMCE" verwendet.
