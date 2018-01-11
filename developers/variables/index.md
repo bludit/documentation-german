@@ -2,7 +2,7 @@
 <!-- Position: 2 -->
 ---
 
-## Konstatanten
+## Konstanten
 
 Nachfolgend siehst du eine Liste mit allen Konstanten und deren Default-Werten. Diese Konstanten befinden sich in der Datei `/bludit/bl-kernel/boot/init.php`.
 
