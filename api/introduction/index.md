@@ -1,24 +1,25 @@
-# Title: API Introduction
+# Title: API Grundlagen
 <!-- Position: 1 -->
 <!-- Date: 2017-07-10 22:00:00 -->
 <!-- DateModified: 2017-07-15 22:00:00 -->
 ---
-The Bludi API (Application Programming Interface) is a plugin to provide an easy integration with Bludit. With this plugin, you can retrieve or update data from the database with just an HTTP request.
+Die Bludi API (Application Programming Interface) ist ein Plugin das die Integration von Bludit ermöglicht.
+Mit diesem Plugin ist es möglich Daten aus der Datenbank mit einem HTTP Request abzufragen oder zu aktualisieren.
 
 ### Content
 1. [Installation](#installation)
 2. [URL](#url)
-3. [Endpoints and Methods](#endpoints)
-4. [Methods Inputs](#inputs)
+3. [Endpoints und Methoden](#endpoints)
+4. [Methoden Parameter](#inputs)
 4. [HTTP Response](#http-response)
 
 ---
 
 ## <a id="installation"></a> Installation
-Bludit comes with the plugin API pre-installed, you only need to enable it. Go to **Admin panel->Plugins->API->Activate**.
+Das API-Plugin ist mit der Installation von Bludit automatisch dabei. Es muss nur über das Admin-Panel **Admin panel->Plugins->API->Aktivieren** aktiviert werden.
 
 ## <a id="url"></a> URL
-The URL of the API is:
+Die URL der API lautet
 ```
 {protocol}://{domain}/api/{endpoint}
 ````
@@ -28,28 +29,28 @@ Example:
 https://example.com/api/pages
 ```
 
-## <a id="endpoints"></a> Endpoints and Methods
+## <a id="endpoints"></a> Endpoints und Methoden
 
-Endpoint		| Method 	| Description
+Endpoint		| Method 	| Beschreibung
 ------------------------|---------------|-----------------------------------------------|
-/pages 			| GET 		| Returns an array with a list of pages		|
-/pages/<key>		| GET		| Returns a page, filtered by the page key	|
-/pages			| POST		| Create a new page				|
+/pages 			| GET 		| Gibt ein Array mit einer Liste aller Seiten zurück.		|
+/pages/<key>		| GET		| Gibt eine Seite anhand des Schlüssels zurück	|
+/pages			| POST		| Erstellt eine neue Seite				|
 
-## <a id="inputs"></a> Methods Inputs
+## <a id="inputs"></a> Methoden Parameter
 
-Key		| Type 		| Description
+Key		| Type 		| Beschreibung
 ----------------|---------------|-----------------------------------------------|
 token 		| string 	| API token					|
-limit		| integer	| A number for limit the pages  		|
-authentication	| string	| Authentication user token			|
+limit		| integer	| Eine Zahl um die Anzahl der Seiten zu begrenzen  		|
+authentication	| string	| Authentifizierungs User Token			|
 
 ## <a id="http-response"></a> HTTP Response
-The response format is `JSON`, here is a list of keys from the JSON object.
+Das zurückgegebene Format ist JSON mit folgenden Feldern:
 
-| Key 		| Type 		| Description 					|
+| Key 		| Type 		| Beschreibung 					|
 ----------------|---------------|-----------------------------------------------|
-| message	| string	| Returns a little message about the execution	|
-| data 		| array		| The content of the response for the endpoint	|
+| message	| string	| Gibt eine kleine Message über das Ergebnis des Requests zurück.	|
+| data 		| array		| Der Inhalt der Antwort dieses Endpoints |
 
-You can check the HTTP Code for differents response.
+Außerdem kann man über den HTTP-Code die verschiednen Antworten prüfen.
