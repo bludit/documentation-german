@@ -3,8 +3,8 @@
 ---
 1. Lade die neueste Version von Bludit von der [offiziellen Website](https://www.bludit.com/de/) herunter.
 2. Entpacke das ZIP-Archiv.
-3. Lade den Inhalt des ZIP-Archivs in das Verzeichnis auf deinem Server, in dem du Bludit installieren möchtest.
-4. Rufe im Browser die Domain mit der Installation auf. Befindet sich der Inhalt des Zip-Archivs im Hauptverzeichnis beispielsweise `https://meinedomain.ch`, befindet er sich in einem Verzeichnis `bludit` beispielsweise `https://meinedomain.ch/bludit`.
+3. Lade den Inhalt des ZIP-Archivs in das Verzeichnis auf deinem Server, in dem du Bludit installieren möchtest. Das kann im Hauptverzeichnis sein (root) oder in einem Unterverzeichnis wie beispielsweise `(bludit`.
+4. Rufe im Browser die Domain mit der Installation auf. Befindet sie im Hauptverzeichnis `https://meinedomain.ch`, wenn sie sich in einem Unterverzeichnis beispielsweise `https://meinedomain.ch/bludit`.
 5. Der Bludit-Installer führt dich darauf durch die Einrichtung der Website.
 
 <div class="note">
