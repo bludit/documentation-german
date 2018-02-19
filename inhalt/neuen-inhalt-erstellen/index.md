@@ -1,4 +1,4 @@
-# Title: Neuen Inhalt erstellen
+# Title: Inhalt erstellen
 <!-- Position: 1 -->
 ---
 Logge dich in den **Admin Bereich** ein und klicke auf den Punkt **Neuer Inhalt** im linken Menü.
