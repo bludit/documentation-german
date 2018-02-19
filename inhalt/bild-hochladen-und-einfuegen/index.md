@@ -1,4 +1,4 @@
-# Title: Hochladen und Einfügen eines Bildes
+# Title: Bild einfügen
 <!-- Position: 2 -->
 <!-- Date: 2017-08-24 22:00:00 -->
 ---
