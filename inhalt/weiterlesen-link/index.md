@@ -1,4 +1,4 @@
-# Title: Einen "Weiterlesen" Link hinzufügen
+# Title: "Weiterlesen"-Link
 <!-- Position: 3 -->
 <!-- Date: 2017-08-24 22:00:00 -->
 ---
