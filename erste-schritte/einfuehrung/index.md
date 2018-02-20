@@ -5,17 +5,18 @@
 Bludit ist eine Web-Anwendung, mit der schnell und einfach **Websites** oder **Blogs** eingerichtet werden können. Sie ist völlig **kostenlos** und **Open Source**. Bludit verwendet Dateien im Format **JSON**, um die Inhalte zu speichern, es muss deshalb keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.
 
 <h2 id="hilfe">Hilfe</h2>
-Fragen und Diskussion über Bludit
+Fragen und Diskussionen über Bludit
 * [Gitter](https://gitter.im/bludit/support), Online-Chat
 * [Support-Forum](https://forum.bludit.org) mit deutschsprachigem Forum
 
 <h2 id="informationen">Informationen und Tipps</h2>
-Neuigkeiten und Rezepte
+Regelmässige Informationen und Rezepte
 * [Deutschsprachiger Newsletter](http://eepurl.com/b6mpKf)
 * [Planet Bludit](https://planet-bludit.ch), deutschsprachige Website mit Tipps und Snippets
 
 
 <h2 id="hilfe">Soziale Medien</h2>
+Hinweise auf Neuigkeiten und Kontakte mit anderen Benutzern
 * [Twitter](https://twitter.com/bludit) **@bludit**
 * [Facebook](https://www.facebook.com/bluditcms)
 * [Google+](https://plus.google.com/+Bluditcms)
@@ -26,7 +27,7 @@ Entwicklerplattform und Fehlermeldungen
 * [GitHub](https://github.com/bludit/bludit)
 
 <h2 id="spenden">Unterstützung</h2>
-Donations and community support are what helps the project stay up and running. Make a donation via Paypal or support Bludit via Open Collective.
+Spenden und die Unterstützung der Community sind das, was das Projekt in Gang hält. Unterstütze Bludit über Open Collective oder mit einer Spende über PayPal
 * [Open Collective](https://opencollective.com/bludit)
 * [Paypal](https://www.paypal.me/bluditpro/5)
 
