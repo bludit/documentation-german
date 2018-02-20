@@ -21,7 +21,7 @@ Neuigkeiten und Rezepte
 * [Google+](https://plus.google.com/+Bluditcms)
 * [Youtube](https://www.youtube.com/channel/UCuLu0Z_CHBsTiYTDz129x9Q)
 
-<h2 id="entwicklung">Entwicklung/h2>
+<h2 id="entwicklung">Entwicklung</h2>
 Entwicklerplattform und Fehlermeldungen
 * [GitHub](https://github.com/bludit/bludit)
 
