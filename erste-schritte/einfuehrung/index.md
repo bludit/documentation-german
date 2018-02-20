@@ -13,14 +13,14 @@ Informationen Fragen und Diskussionen.
 
 
 <h2 id="hilfe">Soziale Medien</h2>
-Hinweise auf Neuigkeiten und Kontakte mit anderen Benutzern
+Hinweise auf Neuigkeiten und Kontakte mit anderen Benutzern.
 * [Twitter](https://twitter.com/bludit) **@bludit**
 * [Facebook](https://www.facebook.com/bluditcms)
 * [Google+](https://plus.google.com/+Bluditcms)
 * [Youtube](https://www.youtube.com/channel/UCuLu0Z_CHBsTiYTDz129x9Q)
 
 <h2 id="entwicklung">Entwicklung</h2>
-Entwicklerplattform und Fehlermeldungen
+Entwicklerplattform und Fehlermeldungen.
 * [GitHub](https://github.com/bludit/bludit)
 
 <h2 id="spenden">Unterstützung</h2>
