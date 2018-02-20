@@ -4,13 +4,10 @@
 
 Bludit ist eine Web-Anwendung, mit der schnell und einfach **Websites** oder **Blogs** eingerichtet werden können. Sie ist völlig **kostenlos** und **Open Source**. Bludit verwendet Dateien im Format **JSON**, um die Inhalte zu speichern, es muss deshalb keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.
 
-<h2 id="hilfe">Hilfe</h2>
-Fragen und Diskussionen über Bludit
+<h2 id="hilfe">Informationen und Hilfe</h2>
+Informationen Fragen und Diskussionen.
 * [Gitter](https://gitter.im/bludit/support), Online-Chat
 * [Support-Forum](https://forum.bludit.org) mit deutschsprachigem Forum
-
-<h2 id="informationen">Informationen und Tipps</h2>
-Regelmässige Informationen und Rezepte
 * [Deutschsprachiger Newsletter](http://eepurl.com/b6mpKf)
 * [Planet Bludit](https://planet-bludit.ch), deutschsprachige Website mit Tipps und Snippets
 
