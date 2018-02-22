@@ -1,15 +1,18 @@
 # Title: Plugins
 <!-- Position: 5 -->
 ---
-Bludit unterstützt Plugins um seine Funktionalität zu erweitern. Plugins findest du auf der Webseite [Bludit Plugins](https://plugins.bludit.com).
+Die Funktionen von Bludit können mit verschiedenen Plugins erweitert werden.
 
-Schau dir den Abschnitt **Plugins** an um mehr darüber zu erfahren, wie man Plugins erstellt.
-- Beginne mit den [Plugin Grundlagen](https://docs.bludit.com/de/plugins/grundlagen).
-- [Wie man ein Plugin übersetzt](https://docs.bludit.com/de/languages/translate-plugins).
+Verschiedene Plugins werden bereits bei der Installation von Bludit installiert.
 
-## Plugin installieren
-1. Lade die ZIP-Datei mit dem Plugin herunter.
-2. Entpacke die ZIP-Datei.
-3. Kopiere den Plugin-Ordner in den Ordner `bl-plugins/`.
-4. Klicke im Admin-Bereich im linken Menü auf den Bereich **Einstellungen -> Plugins**.
-5. Suche nach dem Plugin und klick auf **Aktivieren**.
+Weitere Plugins sind auf der Webseite [Bludit Plugins](https://plugins.bludit.com) zu finden.
+
+### Aktivierung eines Plugins
+1. Klicke im Admin-Bereich in der Navigation in der linken Seitenleiste auf den Menüpunkt **Einstellungen** und wähle dann **Plugins**.
+2. Klicke **Aktivieren** beim Plugin, das Du verwenden möchtest.
+3. Eine Reihe Plugins können nach dem Anklicken von **Einstellungen** den eigenen Bedürfnissen angepasst werden.
+
+### Installation eines Plugins
+1. Lade das ZIP-Archiv mit dem Plugin herunter.
+2. Entpacke das ZIP-Archiv.
+3. Kopiere das entpackte ZIP-Archiv in den Ordner '/bl-plugins/' auf dem Server.
