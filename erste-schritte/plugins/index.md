@@ -10,7 +10,7 @@ Weitere Plugins sind auf der Webseite [Bludit Plugins](https://plugins.bludit.co
 ### Aktivierung eines Plugins
 1. Klicke im Admin-Bereich in der Navigation in der linken Seitenleiste auf den Menüpunkt **Einstellungen** und wähle dann **Plugins**.
 2. Klicke **Aktivieren** beim Plugin, das Du verwenden möchtest.
-3. Eine Reihe Plugins können nach dem Anklicken von **Einstellungen** den eigenen Bedürfnissen angepasst werden.
+3. Die meisten Plugins können nach dem Anklicken von **Einstellungen** den eigenen Bedürfnissen angepasst werden.
 
 ### Installation eines Plugins
 1. Lade das ZIP-Archiv mit dem Plugin herunter.
