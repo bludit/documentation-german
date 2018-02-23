@@ -5,7 +5,7 @@ Die Funktionen von Bludit können mit verschiedenen Plugins erweitert werden.
 
 Verschiedene Plugins sind standardmässig installiert. Nicht alle sind aber aktiviert.
 
-Weitere Plugins sind auf der Webseite [Bludit Plugins](https://plugins.bludit.com) heruntergeladen werden.
+Weitere Plugins können von der Webseite [Bludit Plugins](https://plugins.bludit.com) heruntergeladen werden.
 
 ### Plugin aktivieren
 1. Klicke im Admin-Bereich in der Navigation in der linken Seitenleiste auf den Menüpunkt **Einstellungen** und wähle dann **Plugins**.
