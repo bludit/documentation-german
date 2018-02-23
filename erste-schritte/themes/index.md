@@ -3,7 +3,7 @@
 ---
 Bludit verwendet Themes (Gestaltungsvorlagen) für das Design von Websites oder Blogs.
 
-Auf der Seite [Bludit Themes](https://themes.bludit.com) können verschiedene Themes heruntergeladen werden.
+Von der Seite [Bludit Themes](https://themes.bludit.com) können verschiedene Themes heruntergeladen werden.
 
 ## Theme installieren und aktivieren
 1. Lade das ZIP-Archiv mit dem Theme herunter.
