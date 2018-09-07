@@ -9,6 +9,18 @@ Bludit ist in wenigen Schtitten installiert:
 4. Rufe im Browser die Domain mit der Installation auf. Befindet sie im Hauptverzeichnis `https://meinedomain.ch`, wenn sie sich in einem Unterverzeichnis befindet beispielsweise `https://meinedomain.ch/bludit`.
 5. Der Bludit-Installer führt dich darauf durch die Einrichtung der Website.
 
+Alternativ mit dem Standard PHP Webserver:
+
+Folge Schritten 1 bis 3
+
+4. Wechsel in das Verzeichnis aus 3.
+
+5. Starte bludit in einem Terminal mittels des Befehls `php -S localhost:xxxx`, wobei xxxx ersetzt werden muss durch vier Ziffern, z. B. '8888'
+
+6. Starte deinen Browser und rufe `http://localhost:xxxx` auf
+
+
+
 <div class="note">
 <div class="title">Zeitzone</div>
 Bludit versucht deine Zeitzone automatisch zu ermitteln. Es empfiehlt sich aber, die Einstellung der Zeitzone nach der Installation   im Administrationsbereich unter <strong>Einstellungen</strong> > <strong>Sprache/Zeitzone</strong> > <strong>Zeitzone</strong> zu überprüfen.
