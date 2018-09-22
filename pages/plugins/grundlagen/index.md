@@ -1,6 +1,6 @@
 # Grundlagen
 <!-- Position: 1 -->
----
+
 Plugins befinden sich bei Bludit im Verzeichnis `bl-plugins` und haben eine vordefinierte Verzeichnis- und Dateistruktur.
 Jedes Plugin ist in Bludit als Objekt mit Hooks (Methoden) dargstellt und ansprechbar.
 

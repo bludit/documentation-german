@@ -1,6 +1,6 @@
 # Site Object
 <!-- Position: 2 -->
----
+
 
 Das Objekt `$Site` beinhaltet alle Informationen über die Datenbank `/bl-content/databases/site.php`
 

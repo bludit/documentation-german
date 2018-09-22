@@ -1,6 +1,6 @@
 # Beispiel: Mein zweites Theme
 <!-- Position: 3 -->
----
+
 ## 1. Verzeichnisstruktur
 Jetzt erstellen wir die Verzeichnisstruktur für das Theme. Dieses nennen wir `Mars`.
 Erstelle das Theme-Verzeichnis im Verzeichnis `/bl-themes/`, in unserem Fall `/bl-themes/mars/`.

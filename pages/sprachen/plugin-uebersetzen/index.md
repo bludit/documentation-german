@@ -1,6 +1,6 @@
 # Übersetzen eines Plugins
 <!-- Position: 1 -->
----
+
 Jedes Plugin besitzt ein Verzeichnis `languages` in welchem sich unterschiedliche Dateien für jede unterstützte Sprache befinden.
 
 ```

@@ -1,6 +1,6 @@
 # Helper-Klassen für Themes
 <!-- Position: 100 -->
----
+
 Die Helper unterstützen den Entwickler dabei den Code übersichtlicher zu gestalten und geben die Möglichkeit, weniger
 Code schreiben zu müssen.
 

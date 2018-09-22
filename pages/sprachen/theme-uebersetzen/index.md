@@ -1,6 +1,6 @@
 # Übersetzen eines Plugins
 <!-- Position: 2 -->
----
+
 Jedes Theme besitzt ein Verzeichnis `languages` in welchem sich unterschiedliche Dateien für jede unterstützte Sprache befinden.
 
 ```

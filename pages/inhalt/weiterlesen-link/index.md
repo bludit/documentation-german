@@ -1,7 +1,7 @@
 # "Weiterlesen"-Link
 <!-- Position: 3 -->
 <!-- Date: 2017-08-24 22:00:00 -->
----
+
 Du kannst den Inhalt deiner Seite mit dem Tag `<!-- pagebreak -->` aufteilen
 
 ![Read more link](https://df6m0u2ovo2fu.cloudfront.net/images/documentation-english/read-more-link.png)

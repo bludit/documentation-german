@@ -94,7 +94,7 @@ else {
 	echo 'Page draft';
 }</code></pre>
 
----
+
 
 ## <a id="page-array"></a> $pages array
 

@@ -1,6 +1,6 @@
 # Plugin oder Theme zu den Repositories hinzufügen
 <!-- Position: 1 -->
----
+
 Wenn du eine Plugin oder ein Theme entwickelt hast, das du auch anderen Usern zur Verfügung stellen möchtest, kannst du es zu unseren Repositories hinzufügen. Dann werden diese auch auf den offiziellen Seiten aufgelistet:
 [Bludit Plugins](https://plugins.bludit.com) und [Bludit Themes](https://themes.bludit.com).
 

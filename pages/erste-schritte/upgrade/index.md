@@ -1,6 +1,6 @@
 # Upgrade
 <!-- Position: 4 -->
----
+
 1. Erstelle ein vollständiges Backup mit allen Dateien und Verzeichnissen.
 2. Merke dir die Version von Bludit, die verwendet wurde, falls du aus irgendeinem Grund den Upgrade rückgängig machen musst.
 3. Lade die neueste Version von Bludit von der [offiziellen Website](https://www.bludit.com/de/) herunter.

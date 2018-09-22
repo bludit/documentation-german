@@ -1,7 +1,7 @@
 # Bild einfügen
 <!-- Position: 2 -->
 <!-- Date: 2017-08-24 22:00:00 -->
----
+
 Beim Erstellen oder Bearbeiten einer Seite kannst du über die rechte Sidebar ein Bild hochladen und danach in den Seiteninhalt einfügen.
 
 1. Öffne den Abschnitt **Bilder** auf der rechten Sidebar.

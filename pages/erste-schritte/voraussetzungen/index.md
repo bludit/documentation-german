@@ -1,6 +1,6 @@
 # Voraussetzungen
 <!-- Position: 2 -->
----
+
 Alles, was es braucht, ist ein Server, auf dem PHP läuft.
 
 Auf diesem muss folgendes installiert sein:

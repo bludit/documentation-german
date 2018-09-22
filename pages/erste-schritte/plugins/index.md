@@ -1,6 +1,6 @@
 # Plugins
 <!-- Position: 5 -->
----
+
 Mit Plugins können die Funktionen von Bludit erweitert werden.
 
 Einige Plugins sind standardmässig installiert. Nicht alle sind jedoch aktiviert.

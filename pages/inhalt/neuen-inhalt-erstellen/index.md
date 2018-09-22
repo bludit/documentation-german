@@ -1,6 +1,6 @@
 # Inhalt erstellen
 <!-- Position: 1 -->
----
+
 Logge dich in den **Admin Bereich** ein und klicke auf den Punkt **Neuer Inhalt** im linken Menü.
 
 Fülle alle Felder aus und speichere deinen Beitrag mit einem Klick auf den Button **Speichern**.

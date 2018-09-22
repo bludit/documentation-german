@@ -1,6 +1,6 @@
 # Verzeichnisstruktur
 <!-- Position: 1 -->
----
+
 Das ist die Verzeichnisstruktur von Bludit.
 
 ```

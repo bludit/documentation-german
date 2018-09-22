@@ -1,7 +1,7 @@
 # Veröffentlichung planen
 <!-- Position: 4 -->
 <!-- Date: 2017-08-24 22:00:00 -->
----
+
 Du kannst eine Seite automatisch zu einem bestimmten Zeitpunkt veröffentlichen.
 
 Führe folgende Schritte aus um dies zu tun:

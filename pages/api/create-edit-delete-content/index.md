@@ -1,7 +1,7 @@
 # Inhalte erstellen/bearbeiten/löschen
 <!-- Position: 3 -->
 <!-- Date: 2017-10-18 22:00:00 -->
----
+
 Die Bludit API unterstützt eine Funktion um eine bestimmte Seite oder eine Liste aller Seiten abzurufen.
 
 Standardmäßig benötigt die API den `API token`. Um Inhalte zu schreiben benötigt man einen User mit der Rolle **ADMINISTRATOR** und dessen `Authorization Token`. Diesen bekommt man im Admin-Bereich unter **Verwalten->Benutzer->{Username}->Edit User->Authentication Token->Token**.

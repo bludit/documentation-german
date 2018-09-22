@@ -1,6 +1,6 @@
 # Beispiel: Mein erstes Theme
 <!-- Position: 2 -->
----
+
 Nachfolgend erstellen wir ein neues, einfaches Theme mit dem Namen 'Coffee'.
 
 - Erstelle das Theme-Verzeichnis im Verzeichnis `/bl-themes/`, in unserem Fall `/bl-themes/coffee/`

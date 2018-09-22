@@ -1,7 +1,7 @@
 # Inhalte lesen
 <!-- Position: 2 -->
 <!-- Date: 2017-08-27 13:00:00 -->
----
+
 Die Bludit API unterstützt eine Funktion um eine bestimmte Seite oder eine Liste aller Seiten abzurufen.
 
 Standardmäßig benötigt die API den `API token`.

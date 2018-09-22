@@ -1,7 +1,7 @@
 # Nginx
 <!-- Position: 1 -->
 <!-- Date: 2017-08-22 22:00:00 -->
----
+
 Bludit supports Nginx and is a recommended option for a Webserver.
 
 Bludit has hiw own `router` who handle all request and response, so the idea is give it all the request to the `index.php` file.

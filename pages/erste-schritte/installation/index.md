@@ -1,6 +1,6 @@
 # Installation
 <!-- Position: 3 -->
----
+
 Bludit ist in wenigen Schtitten installiert:
 
 1. Lade die neueste Version von Bludit von der [offiziellen Website](https://www.bludit.com/de/) herunter.

@@ -1,6 +1,6 @@
 # Themes
 <!-- Position: 6 -->
----
+
 Bludit verwendet Themes (Gestaltungsvorlagen) für das Design von Websites oder Blogs.
 
 Von der Seite [Bludit Themes](https://themes.bludit.com) können verschiedene Themes heruntergeladen werden.
