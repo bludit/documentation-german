@@ -1,9 +1,10 @@
 # Passwort wiederherstellen
 <!-- position: 4 -->
 
-You can recover the password for the `admin` user using the script `recovery.php`.
+Sie können das Passwort für den Benutzer `admin` mit dem Skript `recovery.php` wiederherstellen.
 
-<h2 id="how-to-recover-the-password">How to recover the password</h2>
+
+<h2 id="so-stellen-sie-das-passwort-wieder-her">So stellen Sie das Passwort wieder her</h2>
 
 1. Download the file [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php)
 2. Upload the file `recovery.php` to your Bludit installation, on the root folder.
