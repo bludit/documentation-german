@@ -18,24 +18,26 @@ Die Verzeichnisstruktur mit den eben erstellten Dateien muss jetzt so aussehen:
 ```
 
 Im nächsten Schritt erstellen wir den Inhalt der Dateien. Wir beginnen mit der Datei `index.php` und fügen dieser folgenden HTML und PHP Code zu.
-<pre><code data-language="html"><!DOCTYPE html>
+
+```html
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Bludit</title>
-</head>
-<body>
-	<?php foreach ($pages as $Page): ?>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bludit</title>
+    </head>
+    <body>
+        <?php foreach ($pages as $Page): ?>
 
-	<h1><?php echo $Page->title() ?></h1>
-	<div><?php echo $Page->content() ?></div>
+        <h1><?php echo $Page->title() ?></h1>
+        <div><?php echo $Page->content() ?></div>
 
-	<hr>
+        <hr>
 
-	<?php endforeach; ?>
-</body>
+        <?php endforeach; ?>
+    </body>
 </html>
-</code></pre>
+```
 
 Bearbeite jetzt die Datei `languages/en.json` um den Namen und die Beschreibung des Themes hinzuzufügen.
 <pre><code data-language="php">{

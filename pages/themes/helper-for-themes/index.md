@@ -8,9 +8,11 @@ Diese Objekte besitzen statische Methoden (zu sehen an den Doppelpunkten beim Au
 
 ## Title
 Erzeugt einen Titel-Head-Tag mit dynamischen Inhalt aus den Einstellungen der Seite.
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::headTitle();
-?></code></pre>
+?>
+```
 
 ```
 <title>Page title | Title site</title>
@@ -18,9 +20,11 @@ Erzeugt einen Titel-Head-Tag mit dynamischen Inhalt aus den Einstellungen der Se
 
 ## Description
 Erzeugt einen Description-Head-Tag mit dynamischen Inhalt aus den Einstellungen der Seite.
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::headDescription();
-?></code></pre>
+?>
+```
 
 ```
 <meta name="description" content="Description about your site">
@@ -28,9 +32,11 @@ Erzeugt einen Description-Head-Tag mit dynamischen Inhalt aus den Einstellungen 
 
 ## CSS Dateien
 Diese Methode generiert einen Stylesheet-Head-Tag um eine CSS mit dem Namen `blog.css` aus dem Ordner `/bludit/themes/{THEME_NAME}/css/` einzufügen.
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::css('css/blog.css');
-?></code></pre>
+?>
+```
 
 ```
 <link rel="stylesheet" type="text/css" href="https://example.com/bl-themes/{THEME_NAME}/css/blog.css">
@@ -48,18 +54,23 @@ Es gibt auch die Möglichkeit gleich mehrere CSS Einträge zu erstellen.
 
 ## Javascript Dateien
 Diese Methode generiert einen Script-Head-Tag um eine Javascript-Datei mit dem Namen `main.js` aus dem Ordner `/bludit/themes/{THEME_NAME}/js/` einzufügen.
-<pre><code data-language="php"><?php
+
+```php
+<?php
 	echo Theme::js('js/main.js');
-?></code></pre>
+?>
+```
 
 ```
 <script src="https://example.com/bl-themes/{THEME_NAME}/js/main.js"></script>
 ```
 
 Es gibt auch die Möglichkeit gleich mehrere Script Einträge zu erstellen.
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::js(array('js/file1.js', 'js/file2.js'));
-?></code></pre>
+?>
+```
 
 ```
 <script src="https://example.com/bl-themes/{THEME_NAME}/js/file1.js"></script>
@@ -81,32 +92,28 @@ Diese Methode generiert einen Head-Tag für das Favicon. In diesem Beispiel befi
 Bludit unterstützt Plugins. Jedes Plugin besitzt Hooks (Einhängepunkte) über die man steuern kann, an welcher Stelle ein Plugin beim Seitenaufbau aktiv werden soll.
 
 Im folgenden Beispiel werden alle Plugins im Head-Bereich ausgeführt.
-<pre><code data-language="php">
-<head>
-...
+
+```php
 <?php
 	Theme::plugins('siteHead');
 ?>
-...
-</head>
-</code></pre>
+```
 
 Hinzufügen aller Plugins beim Beginn des Body-Abschnitts.
-<pre><code data-language="php">
-<body>
+```php
 <?php
 	Theme::plugins('siteBodyBegin');
 ?>
-...
-</body>
-</code></pre>
+```
 
 ## jQuery einbinden
 Bludit verwendet [jQuery](http://jquery.com) und stellt eine Methode für das Einbinden zur Verfügung.
 
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::jquery();
-?></code></pre>
+?>
+````
 
 ```
 <script src="https://example.com/bl-kernel/js/jquery.min.js"></script>
@@ -114,10 +121,12 @@ Bludit verwendet [jQuery](http://jquery.com) und stellt eine Methode für das Ei
 
 Man kann [jQuery](http://jquery.com) auch vom offiziellen CDN einbinden.
 
-<pre><code data-language="php"><?php
+```php
+<?php
 	$cdn = true;
 	echo Theme::jquery($cdn);
-?></code></pre>
+?>
+```
 
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -126,9 +135,11 @@ Man kann [jQuery](http://jquery.com) auch vom offiziellen CDN einbinden.
 ## FontAwesome einbinden
 Bludit verwendet [FontAwesome](http://fontawesome.io) und stellt eine Methode für das Einbinden zur Verfügung.
 
-<pre><code data-language="php"><?php
+```php
+<?php
 	echo Theme::fontAwesome();
-?></code></pre>
+?>
+```
 
 ```
 <link rel="stylesheet" href="https://example.com/bl-kernel/css/font-awesome/css/font-awesome.min.css">
@@ -136,10 +147,12 @@ Bludit verwendet [FontAwesome](http://fontawesome.io) und stellt eine Methode f�
 
 Man kann [FontAwesome](http://fontawesome.io) auch vom offiziellen CDN [BootstrapCDN](https://www.bootstrapcdn.com) einbinden.
 
-<pre><code data-language="php"><?php
+```php
+<?php
 	$cdn = true;
 	echo Theme::fontAwesome($cdn);
-?></code></pre>
+?>
+```
 
 ```
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
