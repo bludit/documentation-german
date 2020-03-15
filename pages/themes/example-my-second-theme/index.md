@@ -341,5 +341,5 @@ Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu
 
 <div class="note">
 <div class="title">Beispiele</div>
-Wir haben ein Gibhub-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
+Wir haben ein Github-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
 </div>
