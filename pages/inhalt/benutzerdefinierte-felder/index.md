@@ -6,11 +6,28 @@ Benutzerdefinierte Felder erlauben es, die Datenbank der Inhalte mit eigenen Fel
 
 ## Beispiel
 
-Ein Feld `Untertitel` hinzugefügt werden im Admnistrationsbereich unter
+Um ein Feld `Untertitel` hinzuzufügen, wird im Admnistrationsbereich der Reiter `Benutzerdefinierte Felder`aufgerufen unter
 
 ```
-Einstellungen > Allgemein > Benutzerdefinierte Felder
+Einstellungen > Allgemein
 ```
+
+Dann wird folgendes im JSON-Format in den Textbereich eingegeben und durch Klicken des Buttons `Speichern` gespeichert:
+
+```
+{
+    "Untertitel": {
+        "type": "string",
+        "placeholder": "Untertitel der Seite",
+	"position": "bottom"
+    }
+}
+```
+
+Jetzt kann eine neue Seite angelegt werden unter `Neuer Inhalt`.
+
+As you can see there is a new field at the bottom of the editor requesting a "Subtitle for the page". Complete the "Title", "Content" and the new field "Subtitle for the page" and click on the button "Save".
+
 
 ## Struktur
 Die Struktur eines benutzerdefinierten Feldes wird im Format JSON definiert und unterstützt folgende Schlüssel.
