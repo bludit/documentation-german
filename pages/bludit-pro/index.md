@@ -1,5 +1,5 @@
 # Bludit PRO
-<!-- Position: 100 -->
+<!-- position: 101 -->
 
 ## Was ist Bludit PRO?
 Bludit PRO is Bludit with extra remarkable plugins. Bludit PRO doesn't have to be purchased nor requires any special licensing to use it.
