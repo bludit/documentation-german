@@ -16,7 +16,6 @@ Informationen, Fragen und Diskussionen.
 Hinweise auf Neuigkeiten und Kontakte mit anderen Benutzern.
 * [Twitter](https://twitter.com/bludit) **@bludit**
 * [Facebook](https://www.facebook.com/bluditcms)
-* [Google+](https://plus.google.com/+Bluditcms)
 * [Youtube](https://www.youtube.com/channel/UCuLu0Z_CHBsTiYTDz129x9Q)
 
 <h2 id="entwicklung">Entwicklung</h2>
