@@ -23,9 +23,9 @@ Entwicklerplattform und Fehlermeldungen.
 * [GitHub](https://github.com/bludit/bludit)
 
 <h2 id="spenden">Unterstützung</h2>
-Spenden und die Unterstützung der Community sind das, was das Projekt in Gang hält. Unterstütze Bludit über Open Collective oder mit einer Spende über PayPal.
-* [Open Collective](https://opencollective.com/bludit)
+Spenden und die Unterstützung der Community sind das, was das Projekt in Gang hält. Unterstütze Bludit mit einer Spende über PayPal oder über Patreon und erhalte dafür Bludit Pro. 
 * [Paypal](https://www.paypal.me/bluditpro/5)
+* [Patreon](https://www.patreon.com/bludit) - Beiträge geben Zugang zu Bludit Pro.
 
 <h2 id="lizenz">Lizenz</h2>
 Bludit ist Open-Source-Software und steht unter der [MIT-Lizenz](https://tldrlegal.com/license/mit-license).
