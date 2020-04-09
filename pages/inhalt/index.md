@@ -1,3 +1,3 @@
 # Inhalt
-<!-- Position: 2 -->
+<!-- position: 2 -->
 
