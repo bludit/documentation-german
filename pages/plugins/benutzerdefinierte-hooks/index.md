@@ -1,4 +1,4 @@
-# Benutzerdefinierte Hooks für Plugins
+# Benutzerdefinierte Hooks
 <!-- position: 4 -->
 
 Bludit unterstützt benutzerdefinierte Hooks für Plugins. Es können eigene Hooks erstellt werden, die überall aufgerufen werden können.
