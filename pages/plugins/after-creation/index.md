@@ -1,7 +1,7 @@
-# Pages: Hook nach Seitenerstellung
+# Hook nach Seitenerstellung
 <!-- position: 5 -->
 
-Nachdem eine Seite erstellt worden ist, ruft Bludit den Hook `afterPageCreate` auf. Dieser Hook wird auch für zur Veröffentlichung geplanten Seiten verwendet
+Nachdem eine Seite erstellt worden ist, ruft Bludit den Hook `afterPageCreate` auf. Dieser Hook wird auch für zur Veröffentlichung geplante Seiten verwendet
 
 <div class="note">
 Der Hook wurde mit der Version Bludit v3.13 erweitert.
@@ -33,5 +33,5 @@ class TitleAppender extends Plugin {
 ?>
 ```
 
-Das Beispiel.Plugin kann hier heruntergeladen werden:
+Das Plugin mit dem Beispiel kann hier heruntergeladen werden:
 - https://github.com/bludit/examples/tree/master/plugins/title-appender
