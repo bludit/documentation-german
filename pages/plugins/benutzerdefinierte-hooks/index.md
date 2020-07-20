@@ -1,7 +1,7 @@
 # Benutzerdefinierte Hooks
 <!-- position: 4 -->
 
-Bludit unterstützt benutzerdefinierte Hooks für Plugins. Es können eigene Hooks erstellt werden, die überall aufgerufen werden können.
+Bludit unterstützt benutzerdefinierte Hooks für Plugins. Damit können Plugins an jeder beliebigen Stelle eines Themes aufgerufen werden.
 
 <div class="note">
 Benutzerdefinierte Hooks wurden mit Bludit v3.13 eingeführt.
@@ -10,7 +10,7 @@ Benutzerdefinierte Hooks wurden mit Bludit v3.13 eingeführt.
 ## Beispiel
 Das folgende Beispiel definiert die zwei benutzerdefinierten Hooks `select` and `insert`.
 
-Damit die Hooks verwendet werden können müssen sie (object methods) zum Array `$this->customHooks` der Methode `init()` hinzugefügt werden.
+Damit die Hooks verwendet werden können, müssen sie (object methods) zum Array `$this->customHooks` der Methode `init()` hinzugefügt werden.
 
 ```php
 <?php
