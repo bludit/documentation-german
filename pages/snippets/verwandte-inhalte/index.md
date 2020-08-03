@@ -17,7 +17,7 @@ foreach ($relatedPages as $pageKey) {
 ```
 
 ## Beispiel: Sortierung verwandter Inhalte
-Mit `->related()` wird eine unsortierte Liste verwandter Inhalte ausgegeben. Im folgenden Beispiel werden die Inhalte nach Datum sortiert.
+Mit `->related()` wird eine unsortierte Liste verwandter Inhalte ausgegeben. Im folgenden Beispiel werden sie nach Datum sortiert.
 
 ```php
 <?php
