@@ -1,10 +1,10 @@
 # Verwandte Inhalte
 <!-- position: 10 -->
 
-Get the list of pages related to one page. Remember the concept of pages and posts in Bludit are the same.
+Mit dem Code der Beispiele können verwandte Inhalte (Seiten oder Beiträge) ausgegeben werden.
 
-## Example: Get related pages
-The following example prints the title of each related page from the current page.
+## Beispiel: Verwandte Inhalte
+Beim folgenden Beispiel werden die Titel verwandter Inhalte ausgegeben.
 
 ```php
 <?php
@@ -16,8 +16,8 @@ foreach ($relatedPages as $pageKey) {
 ?>
 ```
 
-## Example: Sort related pages
-The method `->related()` returns the page list without any kind of sort, you can sort by date which the following example.
+## Beispiel: Sortierung verwandter Inhalte
+Mit `->related()` wird eine unsortierte Liste verwandter Inhalte ausgegeben. Im folgenden Beispiel werden die Inhalte nach Datum sortiert.
 
 ```php
 <?php
