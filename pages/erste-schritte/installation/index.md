@@ -11,6 +11,19 @@ Bludit ist in wenigen Schtitten installiert:
 
 ---
 
+<h2 id="unterverzeichnis">Installation in einem Unterverzeichnis</h2>
+
+Wird Bludit in einem Unterverzeichnis  eingerichtet, muss bei einigen Hostern die Datei `.htaccess` im Installationsverzeichnis angepasst werden.
+
+Wird Bludit beispielsweise im Unterverzeichnis `bludit` installiert, muss in diesem Falle die Datei wie folgt angepasst werden (Zeile 9):
+
+```
+# Base directory
+RewriteBase /bludit/
+```
+
+---
+
 <h2 id="iis-internet-information-services">IIS (Internet Information Services)</h2>
 
 Für die Installation mit IIS (Internet Information Services, früher: Internet Information Server) von Microsoft muss die Datei .htaccess angepasst werden.
