@@ -11,6 +11,7 @@ Jetzt erstellen wir die Unterverzeichnisse languages, css und js:
 - Erstelle das Verzeichnis `js` im Theme-Verzeichnis `/bl-themes/mars/`
 
 Die Verzeichnisstruktur sollte jetzt so aussehen:
+
 ```
 /bl-themes/mars/
 	css/
@@ -21,7 +22,7 @@ Die Verzeichnisstruktur sollte jetzt so aussehen:
 ## 2. Themeinformationen
 Erstelle eine Datei mit dem Namen `metadata.json` im Theme-Verzeichnis und dem folgenden Inhalt:
 
-```
+```json
 {
 	"author": "Bludit",
 	"email": "",
@@ -36,7 +37,7 @@ Erstelle eine Datei mit dem Namen `metadata.json` im Theme-Verzeichnis und dem f
 
 Jetzt erstelle eine Datei `en.json` im Verzeichnis `/bl-themes/mars/languages/` mit folgendem Inhalt:
 
-```
+```json
 {
 	"theme-data":
 	{
@@ -49,7 +50,8 @@ Jetzt erstelle eine Datei `en.json` im Verzeichnis `/bl-themes/mars/languages/` 
 ## 3. index.php
 Jetzt arbeiten wir an der Datei `index.php`. Erstelle diese im Theme-Verzeichnis `/bl-themes/mars/` mit folgendem Inhalt:
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -58,95 +60,109 @@ Jetzt arbeiten wir an der Datei `index.php`. Erstelle diese im Theme-Verzeichnis
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.1. CSS Dateien
 CSS-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.css` in das Theme ein.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 </head>
 <body>
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.2. JavaScript Dateien
 JavaScript-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.js` in das Theme ein.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 
 	<!-- Javascript -->
-	<?php echo Theme::javascript('js/blog.js') ?>
+	<?php echo Theme::js('js/mars.js') ?>
 </head>
 <body>
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.3. Plugins mit dem hook siteHead
 Damit Plugins funktionieren müssen Hooks mit dem Helper `Theme::plugins` gesetzt werden.
 Nachfolgend setzen wir den Hook für die Plugins, die bei den SiteHeads ausgeführt werden sollen.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 
 	<!-- Javascript -->
-	<?php echo Theme::javascript('js/blog.js') ?>
+	<?php echo Theme::js('js/mars.js') ?>
 
 	<!-- Load plugins with the hook siteHead -->
 	<?php Theme::plugins('siteHead') ?>
 </head>
 <body>
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
 
+	<!-- Here all the rest of HTML code -->
+
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.4. Seitentitel
 Der Seitentitel wird in den Bereichen Head und Body gesetzt.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
-	<!-- Meta tag Title -->
-	<title><?php echo $Site->title() ?></title>
-
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 
 	<!-- Javascript -->
-	<?php echo Theme::javascript('js/blog.js') ?>
+	<?php echo Theme::js('js/mars.js') ?>
 
 	<!-- Load plugins with the hook siteHead -->
 	<?php Theme::plugins('siteHead') ?>
 </head>
 <body>
-	<!-- Site Title -->
-	<h1><?php echo $Site->title() ?></h1>
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
+
+	<img src="<?php echo $site->logo() ?>" alt="" width="128">
+	<h1><?php echo $site->title() ?></h1>
+	<h2><?php echo $site->slogan() ?></h2>
+
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.5. Inhalt
 Jetzt fügen wir Beitragsinhalte auf der Seite ein.
@@ -154,94 +170,83 @@ Jetzt fügen wir Beitragsinhalte auf der Seite ein.
 Um zu ermitteln auf welcher Seite der User sich gerade befindet kann die Variable `$WHERE_AM_I` verwendet werden.
 Wenn der User zum Beispiel eine Seite (einen Inhalt) ansieht hat der Wert der Variable `page`, befindet er sich auf der Startseite, dann ist der Wert `home`.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
-	<!-- Meta tag Title -->
-	<title><?php echo $Site->title() ?></title>
-
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 
 	<!-- Javascript -->
-	<?php echo Theme::javascript('js/blog.js') ?>
+	<?php echo Theme::js('js/mars.js') ?>
 
-	<!-- Plugins site head -->
+	<!-- Load plugins with the hook siteHead -->
 	<?php Theme::plugins('siteHead') ?>
 </head>
 <body>
-	<!-- Site Title -->
-	<h1><?php echo $Site->title() ?></h1>
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
 
-	<?php
-		if ($Url->whereAmI()=='home') {
-			echo 'The user is browsing the front page';
-		}
-		elseif ($Url->whereAmI()=='page') {
-			echo 'The user is browsing a particular page';
-		}
-		elseif ($Url->whereAmI()=='category') {
-			echo 'The user is browsing a particular category';
-		}
-		elseif ($Url->whereAmI()=='tag') {
-			echo 'The user is browsing a particular tag';
-		}
-	?>
+	<h1><?php echo $site->title() ?></h1>
+	<h2><?php echo $site->slogan() ?></h2>
+
+	<?php if ($WHERE_AM_I=='page'): ?>
+		<p>The user is watching a particular page</p>
+	<?php elseif ($WHERE_AM_I=='home'): ?>
+		<p>The user is watching the homepage</p>
+	<?php endif ?>
+
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 </body>
 </html>
-</code></pre>
+```
 
 Befindet sich der User auf der Startseite generiert Bludit ein Array `$pages` mit allen veröffentlichten Seiten. Jede Seite ist hierbei ein [Seiten Objekt](https://).
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 
-	<!-- Meta tag Title -->
-	<title><?php echo $Site->title() ?></title>
-
 	<!-- CSS -->
-	<?php echo Theme::css('css/blog.css') ?>
+	<?php echo Theme::css('css/style.css') ?>
 
 	<!-- Javascript -->
-	<?php echo Theme::javascript('js/blog.js') ?>
+	<?php echo Theme::js('js/mars.js') ?>
 
-	<!-- Plugins site head -->
+	<!-- Load plugins with the hook siteHead -->
 	<?php Theme::plugins('siteHead') ?>
 </head>
 <body>
-	<!-- Site Title -->
-	<h1><?php echo $Site->title() ?></h1>
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
 
-	<?php
-		if ($Url->whereAmI()=='home') {
-			foreach ($pages as $Page) {
-				echo '<h1>'.$Page->title().'</h1>';
-				echo '<div>'.$Page->content().'</div>';
-				echo '<hr>';
-			}
-		}
-		elseif ($Url->whereAmI()=='page') {
-			echo 'The user is browsing a particular page';
-		}
-		elseif ($Url->whereAmI()=='category') {
-			echo 'The user is browsing a particular category';
-		}
-		elseif ($Url->whereAmI()=='tag') {
-			echo 'The user is browsing a particular tag';
-		}
-	?>
+	<h1><?php echo $site->title() ?></h1>
+	<h2><?php echo $site->slogan() ?></h2>
+
+	<?php if ($WHERE_AM_I=='page'): ?>
+		<p>The user is watching a particular page</p>
+	<?php elseif ($WHERE_AM_I=='home'): ?>
+		<?php foreach ($content as $page): ?>
+			<h3><?php echo $page->title(); ?></h3>
+		<?php endforeach ?>
+	<?php endif ?>
+
+	<!-- Load plugins with the hook siteBodyBegin -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 </body>
 </html>
-</code></pre>
+```
 
 Sieht sich der User eine bestimmte Seite an, generiert Bludit ein Objekt mit dem Namen `$Page`, die viele Methoden zur Verfügung stellt.
 In unserem Beispiel verwenden wir die Methoden `title()` und `content()`. Um die anderen Methoden kennen zu lernen schau dir die folgende Seite an: [Page Object](http://)
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -283,12 +288,13 @@ In unserem Beispiel verwenden wir die Methoden `title()` und `content()`. Um die
 	?>
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.6. Plugin Unterstützung für die Hooks 'site body begins' und 'site body ends'
 Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -337,7 +343,7 @@ Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu
 
 </body>
 </html>
-</code></pre>
+```
 
 <div class="note">
 <div class="title">Beispiele</div>
