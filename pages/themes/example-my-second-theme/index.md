@@ -49,7 +49,8 @@ Jetzt erstelle eine Datei `en.json` im Verzeichnis `/bl-themes/mars/languages/` 
 ## 3. index.php
 Jetzt arbeiten wir an der Datei `index.php`. Erstelle diese im Theme-Verzeichnis `/bl-themes/mars/` mit folgendem Inhalt:
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -58,12 +59,13 @@ Jetzt arbeiten wir an der Datei `index.php`. Erstelle diese im Theme-Verzeichnis
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.1. CSS Dateien
 CSS-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.css` in das Theme ein.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -75,12 +77,13 @@ CSS-Dateien können einfach in das Theme eingebunden werden. Dies kann über das
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.2. JavaScript Dateien
 JavaScript-Dateien können einfach in das Theme eingebunden werden. Dies kann über das Tag `link` geschehen oder über den Bludit-Helper `Theme::`. Nachfolgend verwenden wir zweiteres und fügen die Datei `blog.js` in das Theme ein.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -95,13 +98,14 @@ JavaScript-Dateien können einfach in das Theme eingebunden werden. Dies kann ü
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.3. Plugins mit dem hook siteHead
 Damit Plugins funktionieren müssen Hooks mit dem Helper `Theme::plugins` gesetzt werden.
 Nachfolgend setzen wir den Hook für die Plugins, die bei den SiteHeads ausgeführt werden sollen.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -119,12 +123,13 @@ Nachfolgend setzen wir den Hook für die Plugins, die bei den SiteHeads ausgefü
 
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.4. Seitentitel
 Der Seitentitel wird in den Bereichen Head und Body gesetzt.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -146,15 +151,16 @@ Der Seitentitel wird in den Bereichen Head und Body gesetzt.
 	<h1><?php echo $Site->title() ?></h1>
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.5. Inhalt
 Jetzt fügen wir Beitragsinhalte auf der Seite ein.
 
 Um zu ermitteln auf welcher Seite der User sich gerade befindet kann die Variable `$WHERE_AM_I` verwendet werden.
-Wenn der User zum Beispiel eine Seite (einen Inhalt) ansieht hat der Wert der Variable `page`, befindet er sich auf der Startseite, dann ist der Wert `home`.
+Wenn der User zum Beispiel eine Seite (einen Inhalt) ansieht, hat die Variable `$WHERE_AM_I` den Wert `page`, befindet sich der User auf der Startseite ist der Wert `home`.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -191,11 +197,12 @@ Wenn der User zum Beispiel eine Seite (einen Inhalt) ansieht hat der Wert der Va
 	?>
 </body>
 </html>
-</code></pre>
+```
 
 Befindet sich der User auf der Startseite generiert Bludit ein Array `$pages` mit allen veröffentlichten Seiten. Jede Seite ist hierbei ein [Seiten Objekt](https://).
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -236,12 +243,13 @@ Befindet sich der User auf der Startseite generiert Bludit ein Array `$pages` mi
 	?>
 </body>
 </html>
-</code></pre>
+```
 
 Sieht sich der User eine bestimmte Seite an, generiert Bludit ein Objekt mit dem Namen `$Page`, die viele Methoden zur Verfügung stellt.
 In unserem Beispiel verwenden wir die Methoden `title()` und `content()`. Um die anderen Methoden kennen zu lernen schau dir die folgende Seite an: [Page Object](http://)
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -283,12 +291,13 @@ In unserem Beispiel verwenden wir die Methoden `title()` und `content()`. Um die
 	?>
 </body>
 </html>
-</code></pre>
+```
 
 ### 3.6. Plugin Unterstützung für die Hooks 'site body begins' und 'site body ends'
 Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu.
 
-<pre><code data-language="html"><!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -337,9 +346,9 @@ Um unser Theme fertigzustellen fügen wir noch die Funktionen für Plugins hinzu
 
 </body>
 </html>
-</code></pre>
+```
 
 <div class="note">
-<div class="title">Beispiele</div>
-Wir haben ein Github-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
+  <div class="title">Beispiele</div>
+  Wir haben ein Github-Repository mit Beispielen, welches du unter folgendem Link findest: <a href="https://github.com/bludit/examples">Bludit Theme Beispiele</a>.
 </div>
